@@ -27,6 +27,7 @@ class Config(object):
     OWNER_ID = int(os.environ.get("OWNER_ID", "1760280598"))
     SESSION_NAME = "UrlUoloaderBot"
     # database uri (mongodb)
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://OCmm:505953Oc@cluster0.rwt66hd.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "client = pymongo.MongoClient("mongodb+srv://OCmm:505953Oc@cluster0.rwt66hd.mongodb.net/?retryWrites=true&w=majority", server_api=ServerApi('1'))
+db = client.test")
     MAX_RESULTS = "50"
     PREMIUM_USER = os.environ.get("PREMIUM_USER")
